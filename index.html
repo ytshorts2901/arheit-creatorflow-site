@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Arheit CreatorFlow</title>
+<meta name="description" content="A desktop app for authorized creators to prepare videos and send them to TikTok as drafts for review and posting.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <nav>
+      <a class="brand" href="index.html">Arheit CreatorFlow</a>
+      <a href="index.html">Overview</a>
+      <a href="support.html">Support</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <a href="data-deletion.html">Data deletion</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="hero">
+    <h1>Prepare videos. Send drafts. Review before posting.</h1>
+    <p class="lead">Arheit CreatorFlow is a desktop application that helps authorized creators validate local short-form videos and send them to their own TikTok inbox as drafts. The creator completes editing and publishes manually in TikTok.</p>
+  </section>
+
+  <section class="grid">
+    <article class="card">
+      <h2>Secure authorization</h2>
+      <p>Creators connect their own TikTok account through TikTok Login Kit using OAuth 2.0 with PKCE.</p>
+    </article>
+    <article class="card">
+      <h2>Local validation</h2>
+      <p>The application checks file format, duration, resolution, size, and integrity before upload.</p>
+    </article>
+    <article class="card">
+      <h2>Draft-only workflow</h2>
+      <p>Videos are sent to the authorized creator’s TikTok inbox as drafts. The application does not use Direct Post.</p>
+    </article>
+    <article class="card">
+      <h2>Manual review</h2>
+      <p>The creator opens the TikTok inbox notification, reviews the draft, adds platform features, and publishes manually.</p>
+    </article>
+  </section>
+
+  <h2>How it works</h2>
+  <ol>
+    <li>The creator opens the desktop application.</li>
+    <li>The creator chooses “Connect TikTok” and authorizes the requested scopes.</li>
+    <li>The creator selects a local MP4/H.264 video.</li>
+    <li>The application validates the file and asks for confirmation.</li>
+    <li>The video is uploaded to TikTok as an inbox draft through the official Content Posting API.</li>
+    <li>The creator opens TikTok, reviews the draft, and decides whether to publish it.</li>
+  </ol>
+
+  <div class="notice">
+    Arheit CreatorFlow does not automate likes, comments, follows, views, or other engagement. It does not scrape TikTok and does not publish without the creator’s action in TikTok.
+  </div>
+
+  <h2>Security and privacy</h2>
+  <p>OAuth tokens are stored securely for the authorized creator and can be revoked. Local files remain on the creator’s device unless the creator explicitly starts a draft upload. Read the <a href="privacy.html">Privacy Policy</a> for details.</p>
+
+  <h2>Support</h2>
+  <p>For help, account disconnection, or data deletion, visit the <a href="support.html">Support page</a>.</p>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><strong>Arheit CreatorFlow</strong></p>
+    <p>
+      <a href="privacy.html">Privacy Policy</a> ·
+      <a href="terms.html">Terms of Service</a> ·
+      <a href="support.html">Support</a> ·
+      <a href="data-deletion.html">Data deletion</a>
+    </p>
+    <p class="muted">Operated by Viktor Arheit, Switzerland. Contact: <a href="mailto:ytshorts2901@proton.me">ytshorts2901@proton.me</a></p>
+  </div>
+</footer>
+
+</body>
+</html>
